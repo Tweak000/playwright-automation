@@ -1,0 +1,31 @@
+{
+  "name": "playwright-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:all": "npx playwright test",
+    "test:all-debug": "npx playwright test --debug",
+    "test:all-ui": "npx playwright test --ui"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tweak000/playwright-automation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tweak000/playwright-automation/issues"
+  },
+  "homepage": "https://github.com/Tweak000/playwright-automation#readme",
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "@playwright/test": "^1.35.1",
+    "cross-env": "^7.0.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "nanoid": "^4.0.2"
+  }
+}
