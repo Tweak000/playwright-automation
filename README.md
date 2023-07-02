@@ -7,20 +7,24 @@ This is a playground for testing playwright automation
 Use the package manager [node.js](https://nodejs.org/en) to install playwright.
 
 ```bash
-npm init playwright@latest
+# install dependencies
+npm install
 ```
 
 ## Usage
 
 ```typescript
 // run all test in DEV environment
-npm run test:dev
+npm run test:all
 
 // run tests in QA environment in debug mode
-npm run test:qa-debug
+npm run test:all-debug
 
 // run tests in UAT environment in UI mode
-npm run test:uat-uimode
+npm run test:all-uimode
+
+// run report
+npm run report
 ```
 
 ## Contributing
