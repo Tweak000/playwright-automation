@@ -6,7 +6,8 @@
   "scripts": {
     "test:all": "npx playwright test",
     "test:all-debug": "npx playwright test --debug",
-    "test:all-ui": "npx playwright test --ui"
+    "test:all-ui": "npx playwright test --ui",
+    "report": "npx playwright show-report"
   },
   "repository": {
     "type": "git",
